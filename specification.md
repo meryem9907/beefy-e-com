@@ -14,7 +14,7 @@ bee-related commodities.
 - Sellers can login/sign in
 2. Nice-to-have
 - Customers can write comments to a product
-- Customers can score a product
+- Customers can comment a product
 3. Optional
 - admin interface
 

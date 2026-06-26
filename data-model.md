@@ -1,0 +1,6 @@
+- Customers can buy products.
+- Customers can add products to the cart.
+- A product has a category, price, vendor, issue_date, photo,
+- Vendors can sell their products
+- categories are honey, bee supplements, skincare&beauty, candles&home, food&pantry, gift sets, Beekeeping Supplies
+- 
