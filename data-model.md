@@ -1,6 +1,30 @@
-- Customers can buy products.
+- Customers can save products to list.
+- a list contains a creationdate, name
+- a product can belong to one or more lists
 - Customers can add products to the cart.
-- A product has a category, price, vendor, issue_date, photo,
+- A product has a category, price, vendor, issue_date, photo_link, short description, ingredients, measurements (weight, volume, measures, amount), in_stock
 - Vendors can sell their products
 - categories are honey, bee supplements, skincare&beauty, candles&home, food&pantry, gift sets, Beekeeping Supplies
-- 
+- A vendour can choose a logistics workflow
+- A logistics workflow contains company_name, contract_link, cost_programm, and pickup_schedule, packaging_guidelines
+- cost_programm includes item_name, category and shipping_cost, package_cost
+- pickup_schedule includes pickup_address, daytime, holiday
+- a holiday includes a date
+- packaging_guidelines include rule and reason
+- a customer can track their purchases
+- a purchase contains id, product, delivery_status, and delivery_date, order_date, order_i3333333333222222222222222222222d, vendor_id, quantity, total_price, unit_price
+- a delivery_status can be approved, packing, cancelled, delivered and in delivery
+- an order contains one or more purchases
+- an order contains a size
+- an order has a total_price, shipping_cost, tax_amount, payment_status payment_provider, payment_reference, shipping_address, billing_adress, paid_at, shipped_at, delivered_at, created_at
+- a customer has one or more orders
+- a customer has a shopping cart
+- a cart contains a size
+- a purchase belongs to an order
+- a product can belong to a cart
+- a cart contains one or more products
+- a cart has creation_date and an expiry_date
+- a vendor has one or more orders
+- a vendor and customer have email, password, name
+- a vendor has a tax_number, company_name, business address, phone_number, 
+- a customer has a delivery_address
